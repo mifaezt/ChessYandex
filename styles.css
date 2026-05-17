@@ -1,0 +1,47 @@
+/* Базовые стили и шрифты */
+@import url("src/vendor/styles/normalize.css");
+@import url("src/vendor/fonts/fonts.css");
+@import url("src/vendor/styles/global.css");
+
+/* Hero section */
+@import url("src/blocks/lead/lead.css");
+@import url("src/blocks/lead-description/lead-description.css");
+@import url("src/blocks/text-button/text-button.css");
+
+/* Running line */
+@import url("src/blocks/running-line/running-line.css");
+
+/* Info section */
+@import url("src/blocks/info/info.css");
+@import url("src/blocks/idea/idea.css");
+@import url("src/blocks/bender/bender.css");
+@import url("src/blocks/table/table.css");
+
+/* Stages section */
+@import url("src/blocks/stages/stages.css");
+@import url("src/blocks/section-title/section-title.css");
+@import url("src/blocks/stages-buttons/stages-buttons.css");
+
+/* Participants section */
+@import url("src/blocks/participants/participants.css");
+@import url("src/blocks/carousel-buttons/carousel-buttons.css");
+@import url("src/blocks/person/person.css");
+
+/* Footer */
+@import url("src/blocks/footer/footer.css");
+
+/* Плавный скролл по якорям */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Основной контейнер страницы */
+.root {
+  width: 100%;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
