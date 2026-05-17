@@ -1,5 +1,5 @@
  # Chess Club Landing
-
+ДЕПЛОЙ: https://mifaezt.github.io/ChessYandex/
 Адаптивный лендинг шахматного клуба, сверстанный по макету из Figma.
 Проект выполнен на чистом HTML, CSS и JavaScript без использования библиотек и фреймворков.
 
